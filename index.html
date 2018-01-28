@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Panther a cryptocurrency stock site that will give you all the information about the high .low . price and many more">
+        <meta name="keywords" content="Bitcoin stock,Panther,BTC,XMR,LTC,BTG,BTH,IOT,ZEC,ETH,DASH,crypto stock,cryptocurrency,monero stock,NEO
+        ,NEO stock,cryptocurrency stock, Bticoin cash,bitcoin gold,litecoin stock,iota,IOTA,IOTA stock">
+        <meta name="author" content="Sarim Mehmood Khan">
+        <link rel="stylesheet" href="main.css" />
+        <link rel="icon" href="images/circle.ico"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-purple.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Panther</title>
+    </head>
+
+    <body class="background">
+        <!--PerLoader-->
+        <div class="container">
+            <div class="container">
+                <div class="progress grey lighten-4 loader">
+                    <div class="indeterminate pink accent-3"></div>
+                </div>
+            </div>
+        </div>
+        <!--PerLoader-->
+        <!--  Main Header Start -->
+        <header>
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper grey lighten-4 ">
+                        <a href="#" class="brand-logo center grey-text text-darken-3 ">Panther</a>
+                        <ul id="nav-mobile" class="right">
+                            <li>
+                                <a href="#" target="_blank" class="buy">
+                                    <i class="material-icons  grey-text text-darken-3">account_balance_wallet</i>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" data-activates="slide-out" class="button-collapse show-on-large grey-text text-darken-3">
+                            <i class="material-icons">menu</i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <ul id="slide-out" class="side-nav  grey lighten-4 grey">
+                <li class="center-align">
+                    <h5>CryptoCurrency</h5>
+                    </a>
+                </li>
+                <li>
+                    <div class="divider  pink accent-3"></div>
+                </li>
+                <br/>
+                <li class="BitCoin">
+                    <a href="#">
+                        <img src="images/BTC.svg" width="16" height="16"> BitCoin</a>
+                </li>
+                <li class="LiteCoin">
+                    <a href="#">
+                        <img src="images/LTC.svg" width="16" height="16"> LiteCoin</a>
+                </li>
+                <li class="BitCoin_Cash">
+                    <a href="#">
+                        <img src="images/BCH.svg" width="16" height="16"> BitCoin Cash</a>
+                </li>
+                <li class="Monero">
+                    <a href="#">
+                        <img src="images/XMR.svg" width="16" height="16"> Monero</a>
+                </li>
+                <li class="DashCoin">
+                    <a href="#">
+                        <img src="images/DASH.svg" width="16" height="16"> DashCoin</a>
+                </li>
+                <li class="Ethereum">
+                    <a href="#">
+                        <img src="images/ETH.svg" width="16" height="16"> Ethereum</a>
+                </li>
+                <li class="BitCoin_Gold">
+                    <a href="#!">
+                        <img src="images/btg.svg" width="16" height="16"> BitCoin Gold</a>
+                </li>
+                <li class="NEO">
+                    <a href="#">
+                        <img src="images/NEO.svg" width="16" height="16"> NEO</a>
+                </li>
+                <li class="Zcash">
+                    <a href="#">
+                        <img src="images/ZEC.svg" width="16" height="16"> Zcash</a>
+                </li>
+                <li class="IOTA">
+                    <a href="#">
+                        <img src="images/IOTA.svg" width="16" height="16"> IOTA</a>
+                </li>
+            </ul>
+        </header>
+        <!--  Main Header End -->
+        <!--Main Start-->
+        <main class="grey lighten-5">
+            <!--Price Div Start-->
+            <div class="Data">
+                <div class="container">
+                    <div class="">
+                        <h5 class="pink-text text-accent-3 s1 CryptoCurrency">BitCoin Price: </h5>
+                        <h4 class="pink-text text-accent-3 s1 Price">$ 000</h4>
+                        <div class="row">
+                            <h7 class="grey-text text-darken-3 col s2">Open:</h7>
+                            <h7 class="grey-text text-darken-3 col s2">High:</h7>
+                            <h7 class="grey-text text-darken-3 col s2">Low:</h7>
+                            <h7 class="grey-text text-darken-3 col s2">Open 24 hour:</h7>
+                            <h7 class="grey-text text-darken-3 col s2">High 24 hour:</h7>
+                            <h7 class="grey-text text-darken-3 col s2">Low 24 hour:</h7>
+                        </div>
+                        <div class="row">
+                            <h6 class="pink-text text-accent-3 col s2 Open">000:</h6>
+                            <h6 class="pink-text text-accent-3 col s2 High">000:</h6>
+                            <h6 class="pink-text text-accent-3 col s2 Low">000:</h6>
+                            <h6 class="pink-text text-accent-3 col s2 Open24">000:</h6>
+                            <h6 class="pink-text text-accent-3 col s2 High24">000:</h6>
+                            <h6 class="pink-text text-accent-3 col s2 Low24">000:</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Price Div End-->
+            <div class="volume_div ">
+                <div class="row container">
+                    <h8 class="grey-text text-darken-3 col s2">Last Volume:</h8>
+                    <h8 class="grey-text text-darken-3 col s2">Volume 24 Hour:</h8>
+                    <h8 class="grey-text text-darken-3 col s2">Volume Day:</h8>
+                    <h8 class="grey-text text-darken-3 col s2">Last Trade ID:</h8>
+                    <h8 class="grey-text text-darken-3 col s2">Last Update:</h8>
+                </div>
+                <div class="row container">
+                    <h7 class="pink-text text-accent-3 col s2 last_volume">000:</h7>
+                    <h7 class="pink-text text-accent-3 col s2 volume_24">000:</h7>
+                    <h7 class="pink-text text-accent-3 col s2 volume_day">000:</h7>
+                    <h7 class="pink-text text-accent-3 col s2 last_id">000:</h7>
+                    <h7 class="pink-text text-accent-3 col s2 last_update">000:</h7>
+                </div>
+            </div>
+            <div class="other_stuff">
+                <div class="row container">
+                    <h8 class="grey-text text-darken-3 col s2">Last Market:</h8>
+                    <h8 class="grey-text text-darken-3 col s2">Market Capital:</h8>
+                    <h8 class="grey-text text-darken-3 col s2">Change Day:</h8>
+                    <h8 class="grey-text text-darken-3 col s2">Change 24 Hour:</h8>
+                    
+                </div>
+                <div class="row container">
+                    <h7 class="pink-text text-accent-3 col s2 Alogrithm">0.03:</h7>
+                    <h7 class="pink-text text-accent-3 col s2 ProofType">434:</h7>
+                    <h7 class="pink-text text-accent-3 col s2 BlockNumber">644:</h7>
+                    <h7 class="pink-text text-accent-3 col s2 NetHashPerSecond">5678:</h7>
+                    
+                </div>
+            </div>
+            <br/>
+            <!--Graph OHLC Div Start-->
+            <div class="Graph">
+                <div class="container ohlc" id="plotly-div"> </div>
+            </div>
+            <!--Graph OHLC Div End-->
+            <br/>
+            <div class="row">
+                <!--Pie_graph Div Start-->
+                <div class="Graph_pie col s6" id="myDiv"> </div>
+                <div class="Graph_line col s6" id="myDiv_Line"> </div>
+                <!--Pie_graph Div End-->
+            </div>
+            </div>
+            <div class="Graph">
+                <div class="container" id="myDiv_Bar"></div>
+            </div>
+            <div class="excange">
+                <div class=" row container">
+                    <form class="container ">
+                        <div class=" valign-wrapper">
+                            <h6 class="col s1 crypto">BTC</h6>
+                            <input class="col s1 get_number"  type="text" placeholder="1">
+                            <h6 class="col s1">USD:</h6>
+                            <h5 class="col s1 pink-text text-accent-3 dollars">00000</h5>
+                            <a class="center-align waves-effect waves-light btn pink accent-3  button col s1"><i class="material-icons">send</i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <!--Main End-->
+
+        <!--Footer Start-->
+
+        <footer class="page-footer grey lighten-4">
+            
+            <div class="footer-copyright grey lighten-4">
+              <div class="container grey-text text-darken-3">
+              © 2018 Copyright Text
+              <a class="grey-text text-darken-3 right" href="https://twitter.com/sarimkh81060764" target="_blank"><i  class="fa fa-twitter"></i></a>
+              <a class="grey-text text-darken-3 right" href="https://www.facebook.com/mksarim" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a class="grey-text text-darken-3 right" href="https://plus.google.com/u/0/115981203903520288206" target="_blank"><i class="fa fa-google"></i></a>
+              </div>
+            </div>
+          </footer>
+
+        <!--Footer Start-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <script defer src="main.js" type="application/javascript"></script>
+        <script>
+
+            $('.button-collapse').sideNav({
+                menuWidth: 200, // Default is 300
+                closeOnClick: true
+
+            }
+            );
+
+        </script> </body>
+
+</html>

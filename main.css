@@ -1,0 +1,70 @@
+main{
+
+    font-family: "Segoe UI"
+    
+}
+
+.Data{
+    
+    height: 200px;
+    
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    
+    
+}
+
+.background{
+    background-color: #FAFAFA
+}
+
+.Graph{
+    height: 450px;
+    
+    background-color: rgb(255, 255, 255);
+    
+    
+    
+
+}
+
+.Graph_pie{
+    height: 300px;
+   
+    background-color: rgb(255, 255, 255);    
+}
+
+.Graph_line{
+    height: 300px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.ohlc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.volume_div{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.other_stuff{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.excange{
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.button{
+    margin: 2px;
+}
+.right{
+    margin: 10px;
+}
+
